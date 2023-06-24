@@ -72,11 +72,12 @@ export default StyleSheet.create({
   image: {
     height: 200, // Image maximum height
     width: Dimensions.get('window').width - 30, // Width based on the window width
-    alignSelf: 'center',
+    alignSelf: 'left',
     resizeMode: 'contain', // The image will scale uniformly (maintaining aspect ratio)
+    backgroundColor: 'red',
   },
   imageBox: {
-    flex: 1,
+    flex: 0.1,
     resizeMode: 'cover',
   },
   inlineCode: {
